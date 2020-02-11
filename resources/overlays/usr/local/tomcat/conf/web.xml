@@ -580,15 +580,15 @@
             <param-value>*</param-value>
         </init-param>
         <init-param>
-            <param-name>cors.allowed.headers</param-name>
-            <param-value>If-Modified-Since,Range,Origin</param-value>
+            <param-name>cors.exposed.headers</param-name>
+            <param-value>Access-Control-Allow-Origin,Access-Control-Allow-Credentials</param-value>
         </init-param>
         <init-param>
-            <param-name>allowedMethods</param-name>
+            <param-name>cors.allowed.methods</param-name>
             <param-value>GET,OPTIONS</param-value>
         </init-param>
         <init-param>
-            <param-name>allowedHeaders</param-name>
+            <param-name>cors.allowed.headers</param-name>
             <param-value>Origin, Content-type, Accept, Authorization,Access-Control-Request-Method, Access-Control-Request-Headers</param-value>
         </init-param>
     </filter>
