@@ -36,18 +36,21 @@ create_dir ${work_dir}/plugins
 pushd ${work_dir}/plugins
 #Extensions
 
-array=(geoserver-$GS_VERSION-vectortiles-plugin.zip \
+array=(geoserver-$GS_VERSION-arcsde-plugin.zip \
+geoserver-$GS_VERSION-charts-plugin.zip \
+geoserver-$GS_VERSION-control-flow-plugin.zip \
 geoserver-$GS_VERSION-css-plugin.zip \
 geoserver-$GS_VERSION-csw-plugin.zip \
-geoserver-$GS_VERSION-wps-plugin.zip \
-geoserver-$GS_VERSION-printing-plugin.zip \
-geoserver-$GS_VERSION-libjpeg-turbo-plugin.zip \
-geoserver-$GS_VERSION-control-flow-plugin.zip \
-geoserver-$GS_VERSION-pyramid-plugin.zip \
-geoserver-$GS_VERSION-gdal-plugin.zip \
-geoserver-$GS_VERSION-sldservice-plugin.zip  \
+geoserver-$GS_VERSION-excel-plugin.zip \
+geoserver-$GS_VERSION-imagemap-plugin.zip \
+geoserver-$GS_VERSION-imagemosaic-jdbc-plugin.zip \
+geoserver-$GS_VERSION-importer-bdb-plugin.zip \
 geoserver-$GS_VERSION-importer-plugin.zip \
-geoserver-$GS_VERSION-charts-plugin.zip)
+geoserver-$GS_VERSION-libjpeg-turbo-plugin.zip \
+geoserver-$GS_VERSION-monitor-plugin.zip \
+geoserver-$GS_VERSION-printing-plugin.zip \
+geoserver-$GS_VERSION-querylayer-plugin.zip \
+geoserver-$GS_VERSION-vectortiles-plugin.zip)
 
 for i in "${array[@]}"
 do
